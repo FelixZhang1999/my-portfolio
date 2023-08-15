@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./SkillItem.css";
 
-const SkillItem = ({ skill }) => {
+const SkillItem = ({ skill }  : any) => {
     return (
         <div className="skill-card">
             <div className="skill-icon">{skill.icon}</div>

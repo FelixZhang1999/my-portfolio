@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./WorkItem.css";
 
-const WorkItem = ({ work }) => {
+const WorkItem = ({ work } : any) => {
     return (
         <div className="work-item">
             <img src={work.companyLogo}className="work-logo" />

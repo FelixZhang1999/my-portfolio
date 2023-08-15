@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./ProjectItem.css";
 
-const ProjectItem = ({ project }) => {
+const ProjectItem = ({ project }  : any) => {
     return (
         <div className="project-item">
             <div className="project-info">
@@ -23,7 +24,7 @@ const ProjectItem = ({ project }) => {
             </div>
             <p>{project.about}</p>
             <div className="project-tags">
-                {project.tags.map((tag)=> {
+                {project.tags.map((tag : any)=> {
                     return <label className="tag">{tag}</label>;
                 })}
             </div>
