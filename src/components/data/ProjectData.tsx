@@ -5,7 +5,7 @@ export const ProjectData=[
         about: "AICreationhub is an online social platform that allows users to share and discover AI-generated content. The website is built with React and Nextjs and the backend is built with Spring Boot and deployed on AWS. The website is still in development.",
         tags:["React", "Cloudflare", "AWS", "Spring Boot"],
         demo:"https://aicreationhub.xyz/",
-        github:"https://github.com/FelixZhang1999/",
+        github:"",
         image: "",
     },
     {
